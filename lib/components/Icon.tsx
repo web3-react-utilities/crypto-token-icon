@@ -6,6 +6,7 @@ type Props = {
     /**
      * The value of tokeName should be in type TokenName
      * @example
+     * import { TokenName } from 'crypto-token-icon';
      * <TokenIcon tokenName="TRX" />
      *
      * @type {TokenName}
@@ -14,7 +15,7 @@ type Props = {
     sx?: SxProps;
 };
 export function Icon({ tokenName, sx }: Props) {
-    if (mapNameToIcon[tokenName]) {
+    if (mapNameToIcon[tokenName as any]) {
         const Icon = mapNameToIcon[tokenName];
         return <Icon sx={sx} />;
     }
