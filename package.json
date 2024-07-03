@@ -10,6 +10,7 @@
   "license": "ISC",
   "main": "dist/crypto-token-icon.js",
   "types": "dist/main.d.ts",
+  "keywords": ["web3","crypto","token","icon","react","mui", "wallet", "svg"],
   "files": [
     "dist"
   ],

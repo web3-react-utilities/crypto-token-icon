@@ -48,6 +48,12 @@ import { mapNameToIcon, SvgComponent } from 'crypto-token-icon';
 const x: SvgComponent = mapNameToIcon['BTC'];
 ```
 
+```tsx
+import { WalletName } from 'crypto-token-icon';
+
+WalletName.metaMask;
+```
+
 ## Prepare when dev package
 
 prepare for vite:
