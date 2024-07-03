@@ -10,7 +10,7 @@ type Props = {
     sxText?: SxProps;
 };
 
-export default function IconAndName({ tokenName, sx, sxIcon, sxText }: Props) {
+export function IconAndName({ tokenName, sx, sxIcon, sxText }: Props) {
     const Icon = mapNameToIcon[tokenName as keyof typeof mapNameToIcon] || Help;
     return (
         <Box sx={{ display: 'flex', placeItems: 'center', columnGap: 0.6, ...sx }}>
