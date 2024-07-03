@@ -2,7 +2,7 @@ import React from 'react';
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
 
-export const IconSun: SvgComponent = (props) => {
+export const IconSUN: SvgComponent = (props) => {
     return (
         <MuiSvgIcon {...props} viewBox="0 0 250 250">
             <path

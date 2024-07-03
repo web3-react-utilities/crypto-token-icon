@@ -2,7 +2,7 @@ import React from 'react';
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
 
-export const IconTron: SvgComponent = (props) => {
+export const IconTRX: SvgComponent = (props) => {
     return (
         <MuiSvgIcon {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 610" width="2500" height="2500">
             <circle cx="305" cy="305" r="305" fill="red" />

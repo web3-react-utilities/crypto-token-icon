@@ -1,0 +1,1 @@
+export { IconMetamask } from './IconMetamask';
