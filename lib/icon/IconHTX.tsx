@@ -2,7 +2,7 @@ import React from 'react';
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
 
-const IconHTX: SvgComponent = (props) => {
+export const IconHTX: SvgComponent = (props) => {
     return (
         <MuiSvgIcon {...props} viewBox="0 0 32 32" fill="none">
             <g clipPath="url(#clip0_301_1507_htx)">
@@ -24,5 +24,3 @@ const IconHTX: SvgComponent = (props) => {
         </MuiSvgIcon>
     );
 };
-
-export default IconHTX;
