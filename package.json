@@ -1,0 +1,52 @@
+{
+  "name": "crypto-token-icon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Crypto token icon.",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "QuyenLee",
+  "license": "ISC",
+  "main": "dist/crypto-token-icon.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "repository": {
+    "url": "https://github.com/web3-react-utilities/crypto-token-icon.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --p ./tsconfig-build.json && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.21",
+    "@mui/material": "^5.15.21",
+    "@types/node": "^20.14.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite-plugin-dts": "^3.9.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}
