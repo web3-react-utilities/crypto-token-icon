@@ -1,7 +1,7 @@
 {
   "name": "crypto-token-icon",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "Crypto token icon.",
   "directories": {
@@ -46,7 +46,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "vite-plugin-dts": "^3.9.1",
-
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
