@@ -1,2 +1,1 @@
-import { IconHT } from './icon/IconHT';
-import { IconHTX } from './icon/IconHTX';
+export * from './icon';
