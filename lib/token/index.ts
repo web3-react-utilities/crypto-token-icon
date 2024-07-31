@@ -55,3 +55,6 @@ export { IconFLOW } from './IconFLOW';
 export { IconNEO } from './IconNEO';
 export { IconGALA } from './IconGALA';
 export { IconNEXO } from './IconNEXO';
+export { IconMANA } from './IconMANA';
+export { IconMINA } from './IconMINA';
+export { IconSNX } from './IconSNX';
