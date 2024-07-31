@@ -1,11 +1,11 @@
-import { IconAuro, IconLeap, IconOwallet, IconTonKeeper, IconTronLink } from '../lib/wallet';
+import { IconAuro, IconLeap, IconOwallet, IconTonKeeper, IconTronLink, IconWalletConnect } from '../lib/wallet';
 import './App.css';
 import React from 'react';
 
 function App() {
     return (
         <div>
-            <IconAuro sx={{ fontSize: '100px' }} />
+            <IconWalletConnect sx={{ fontSize: '400px' }} />
         </div>
     );
 }

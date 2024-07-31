@@ -10,6 +10,7 @@ export enum WalletName {
     tronLink = 'TronLink',
     tonKeeper = 'TonKeeper',
     auro = 'Auro',
+    walletConnect = 'WalletConnect',
 }
 
 export type TokenName =
@@ -53,4 +54,13 @@ export type TokenName =
     | 'WETH'
     | 'WIN'
     | 'WTRX'
-    | 'xOCH';
+    | 'xOCH'
+    | 'APT'
+    | 'AR'
+    | 'ARB'
+    | 'IMX'
+    | 'SHIBAINU'
+    | 'SOL'
+    | 'VET'
+    | 'XLM'
+    | 'XRP';

@@ -1,6 +1,9 @@
 import { IconSUN } from '../system';
 import {
     IconAIRI,
+    IconAPT,
+    IconAR,
+    IconARB,
     IconATOM,
     IconBNB,
     IconBTC,
@@ -10,6 +13,7 @@ import {
     IconETH,
     IconHT,
     IconHTX,
+    IconIMX,
     IconINJ,
     IconJST,
     IconKWT,
@@ -23,6 +27,8 @@ import {
     IconSCATOM,
     IconSCORAI,
     IconSCOSMO,
+    IconSHIBAINU,
+    IconSOL,
     IconSORAI,
     IconSTRX,
     IconSTUSDT,
@@ -34,9 +40,12 @@ import {
     IconUSDD,
     IconUSDJ,
     IconUSDT,
+    IconVET,
     IconWBTC,
     IconWIN,
+    IconXLM,
     IconXOCH,
+    IconXRP,
 } from '../token';
 import { SvgComponent, TokenName } from '../types';
 
@@ -82,4 +91,13 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     BTT: IconBTT,
     STUSDT: IconSTUSDT,
     wstUSDT: IconSTUSDT,
+    APT: IconAPT,
+    AR: IconAR,
+    ARB: IconARB,
+    IMX: IconIMX,
+    SHIBAINU: IconSHIBAINU,
+    SOL: IconSOL,
+    VET: IconVET,
+    XLM: IconXLM,
+    XRP: IconXRP,
 };

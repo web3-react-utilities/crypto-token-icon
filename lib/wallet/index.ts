@@ -5,3 +5,4 @@ export { IconLeap } from './IconLeap';
 export { IconTronLink } from './IconTronLink';
 export { IconTonKeeper } from './IconTonKeeper';
 export { IconAuro } from './IconAuro';
+export { IconWalletConnect } from './IconWalletConnect';
