@@ -63,4 +63,10 @@ export type TokenName =
     | 'SOL'
     | 'VET'
     | 'XLM'
-    | 'XRP';
+    | 'XRP'
+    | 'ALGO'
+    | 'AVAX'
+    | 'FLOW'
+    | 'GALA'
+    | 'NEO'
+    | 'NEXO';

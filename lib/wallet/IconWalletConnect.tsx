@@ -19,8 +19,8 @@ export const IconWalletConnect: SvgComponent = (props) => {
             </g>
             <defs>
                 <radialGradient id="paint0_radial_5448_12656_WC" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-1.35999 257.16) scale(512)">
-                    <stop stop-color="#5D9DF6" />
-                    <stop offset="1" stop-color="#006FFF" />
+                    <stop stopColor="#5D9DF6" />
+                    <stop offset="1" stopColor="#006FFF" />
                 </radialGradient>
                 <clipPath id="clip0_5448_12656_WC">
                     <rect width="512" height="512" fill="white" />

@@ -15,12 +15,12 @@ export const IconSOL: SvgComponent = (props) => {
             </g>
             <defs>
                 <linearGradient id="paint0_linear_301_2858_SOL" x1="9.35059" y1="23.574" x2="22.2592" y2="8.80061" gradientUnits="userSpaceOnUse">
-                    <stop offset="0.08" stop-color="#9945FF" />
-                    <stop offset="0.3" stop-color="#8752F3" />
-                    <stop offset="0.5" stop-color="#5497D5" />
-                    <stop offset="0.6" stop-color="#43B4CA" />
-                    <stop offset="0.72" stop-color="#28E0B9" />
-                    <stop offset="0.97" stop-color="#19FB9B" />
+                    <stop offset="0.08" stopColor="#9945FF" />
+                    <stop offset="0.3" stopColor="#8752F3" />
+                    <stop offset="0.5" stopColor="#5497D5" />
+                    <stop offset="0.6" stopColor="#43B4CA" />
+                    <stop offset="0.72" stopColor="#28E0B9" />
+                    <stop offset="0.97" stopColor="#19FB9B" />
                 </linearGradient>
                 <clipPath id="clip0_301_2858">
                     <rect width="16" height="14.0952" fill="white" transform="translate(8 9.14282)" />
