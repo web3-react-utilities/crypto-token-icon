@@ -69,4 +69,17 @@ export type TokenName =
     | 'FLOW'
     | 'GALA'
     | 'NEO'
-    | 'NEXO';
+    | 'NEXO'
+    | 'MANA'
+    | 'MINA'
+    | 'SNX'
+    | 'ROSE'
+    | 'AELF'
+    | 'COMP'
+    | 'FLUX'
+    | 'GNO'
+    | 'HOT'
+    | 'IOTX'
+    | 'METIS'
+    | 'ZEC'
+    | 'ZRX';
