@@ -99,4 +99,11 @@ export type TokenName =
     | 'GRT'
     | 'HNT'
     | 'BONK'
-    | 'FLOKI';
+    | 'FLOKI'
+    | 'TIA'
+    | 'WEDU'
+    | 'JUP'
+    | 'JASMY'
+    | 'PYTH'
+    | 'KCS'
+    | 'AXS';

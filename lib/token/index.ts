@@ -86,3 +86,11 @@ export { IconGRT } from './IconGRT';
 export { IconHNT } from './IconHNT';
 export { IconBONK } from './IconBONK';
 export { IconFLOKI } from './IconFLOKI';
+
+export { IconTIA } from './IconTIA';
+export { IconWEDU } from './IconWEDU';
+export { IconJUP } from './IconJUP';
+export { IconJASMY } from './IconJASMY';
+export { IconPYTH } from './IconPYTH';
+export { IconKCS } from './IconKCS';
+export { IconAXS } from './IconAXS';
