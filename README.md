@@ -7,7 +7,7 @@ yarn add @mui/icons-material @mui/material @emotion/styled @emotion/react crypto
 ## Using nomal
 
 ```tsx
-import { IconBTC, IconETH } from 'crypto-token-icon';
+import { IconHT, IconHTX } from 'crypto-token-icon';
 
 function App() {
     return (
@@ -39,7 +39,7 @@ function App() {
 ```tsx
 import { TokenName } from 'crypto-token-icon';
 
-const x: TokenName = 'BTC';
+const x: TokenName = TokenName.BTC;
 ```
 
 ```tsx
@@ -53,6 +53,17 @@ import { WalletName } from 'crypto-token-icon';
 
 WalletName.metaMask;
 ```
+
+```tsx
+import { IconAndName } from 'crypto-token-icon'
+
+<IconAndName tokenName={TokenName.BTC} />
+<IconAndName tokenName={TokenName.BTC} reverse={true} />
+```
+
+<img src="public/imgs/tokenandname.png">
+
+<img src="public/imgs/tokenandname-reverse.png">
 
 ## Prepare when dev package
 

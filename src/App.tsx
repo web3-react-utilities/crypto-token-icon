@@ -1,11 +1,14 @@
-import { IconAuro, IconLeap, IconOwallet, IconTonKeeper, IconTronLink } from '../lib/wallet';
+import { TokenName } from '../lib/types';
+import { IconAndName } from '../lib/components';
+import { IconDOGE, IconEDU, IconFIL, IconKAS, IconKCS, IconROSE, IconTON, IconXMR } from '../lib/token';
 import './App.css';
-import React from 'react';
 
 function App() {
     return (
         <div>
-            <IconAuro sx={{ fontSize: '100px' }} />
+            <IconKCS sx={{ fontSize: '400px' }} />
+            <IconAndName tokenName={TokenName.BTC} />
+            <IconAndName tokenName={TokenName.BTC} reverse={true} />
         </div>
     );
 }
