@@ -14,6 +14,7 @@ import {
     IconBNB,
     IconBONK,
     IconBTC,
+    IconBTCB,
     IconBTT,
     IconBUSD,
     IconCOMP,
@@ -194,4 +195,6 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     aUSDT: IconAUSDT,
     stATOM: IconSTATOM,
     stOSMO: IconSTOSMO,
+    BTCB: IconBTCB,
+    WBNB: IconBNB,
 };
