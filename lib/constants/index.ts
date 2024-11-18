@@ -196,5 +196,6 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     stATOM: IconSTATOM,
     stOSMO: IconSTOSMO,
     BTCB: IconBTCB,
+
     WBNB: IconBNB,
 };
