@@ -37,6 +37,7 @@ import {
     IconHTX,
     IconIMX,
     IconINJ,
+    IconION,
     IconIOTX,
     IconJASMY,
     IconJST,
@@ -200,4 +201,5 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     WBNB: IconBNB,
     ETHOLD: IconETH,
     WBTT: IconBTT,
+    ION: IconION,
 };

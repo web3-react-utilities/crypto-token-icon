@@ -95,3 +95,4 @@ export { IconPYTH } from './IconPYTH';
 export { IconKCS } from './IconKCS';
 export { IconAXS } from './IconAXS';
 export { IconBTCB } from './IconBTCB';
+export { IconION } from './IconION';
