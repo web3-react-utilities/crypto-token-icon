@@ -198,4 +198,6 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     BTCB: IconBTCB,
 
     WBNB: IconBNB,
+    ETHOLD: IconETH,
+    WBTT: IconBTT,
 };

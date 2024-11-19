@@ -113,4 +113,6 @@ export enum TokenName {
     stOSMO = 'stOSMO',
     BTCB = 'BTCB',
     WBNB = 'WBNB',
+    ETHOLD = 'ETHOLD',
+    WBTT = 'WBTT',
 }
