@@ -1,4 +1,3 @@
-import React from 'react';
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
 
@@ -6,7 +5,12 @@ export const IconLogoOrchaiWhite: SvgComponent = (props) => {
     return (
         <MuiSvgIcon
             {...props}
-            sx={{ '.cls-1': { fill: '#fff' }, '.cls-2': { fill: '#dce1dd' }, '.cls-3': { fill: '#0c1c18' }, ...props.sx }}
+            sx={{
+                '.cls-1': { fill: (theme) => (theme.palette.mode == 'dark' ? '#fff' : '#000') },
+                '.cls-2': { fill: (theme) => (theme.palette.mode == 'dark' ? '#dce1dd' : '#595f5a') },
+                '.cls-3': { fill: (theme) => (theme.palette.mode == 'dark' ? '#0c1c18' : '#fffef5') },
+                ...props.sx,
+            }}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 206.39 206.39"
         >

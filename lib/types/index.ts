@@ -107,4 +107,13 @@ export enum TokenName {
     PYTH = 'PYTH',
     KCS = 'KCS',
     AXS = 'AXS',
+    ORAIX = 'ORAIX',
+    aUSDT = 'aUSDT',
+    stATOM = 'stATOM',
+    stOSMO = 'stOSMO',
+    BTCB = 'BTCB',
+    WBNB = 'WBNB',
+    ETHOLD = 'ETHOLD',
+    WBTT = 'WBTT',
+    ION = 'ION',
 }
