@@ -1,9 +1,8 @@
 import { TokenName } from '../lib/types';
 import { IconAndName } from '../lib/components';
-import { IconDOGE, IconEDU, IconFIL, IconKAS, IconKCS, IconORAI, IconOraiX, IconOraiXRounded, IconROSE, IconTON, IconXMR } from '../lib/token';
+import { IconKCS } from '../lib/token';
 import './App.css';
-import { IconLeap } from '../lib/wallet';
-import { IconJustLendDao, IconLogoOrchaiWhite } from '../lib/system';
+import { IconJustLendDao } from '../lib/system';
 
 function App() {
     return (

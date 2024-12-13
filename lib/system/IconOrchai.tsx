@@ -1,7 +1,7 @@
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
 
-export const IconLogoOrchaiWhite: SvgComponent = (props) => {
+export const IconOrchai: SvgComponent = (props) => {
     return (
         <MuiSvgIcon
             {...props}

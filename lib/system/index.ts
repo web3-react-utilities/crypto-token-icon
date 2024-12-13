@@ -1,4 +1,4 @@
 export { IconJustLendDao } from './IconJustLendDao';
 export { IconSUN } from './IconSun';
-export { IconLogoOrchaiWhite } from './IconLogoOrchaiWhite';
+export { IconOrchai } from './IconOrchai';
 export { IconBSC } from './IconBSC';
