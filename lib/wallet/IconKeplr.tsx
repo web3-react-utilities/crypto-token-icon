@@ -4,7 +4,7 @@ import MuiSvgIcon from '@mui/material/SvgIcon';
 
 export const IconKeplr: SvgComponent = (props) => {
     return (
-        <MuiSvgIcon {...props} viewBox="0 0 42 42" fill="none">
+        <MuiSvgIcon {...props} viewBox="0 0 42 42" fill="none" sx={{ borderRadius: '50%', ...props.sx }}>
             <g clipPath="url(#clip0_425_5107-keplr)">
                 <path
                     d="M32.4545 0H9.54545C4.27365 0 0 4.27365 0 9.54545V32.4545C0 37.7264 4.27365 42 9.54545 42H32.4545C37.7264 42 42 37.7264 42 32.4545V9.54545C42 4.27365 37.7264 0 32.4545 0Z"

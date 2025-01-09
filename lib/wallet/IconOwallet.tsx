@@ -4,7 +4,7 @@ import MuiSvgIcon from '@mui/material/SvgIcon';
 
 export const IconOwallet: SvgComponent = (props) => {
     return (
-        <MuiSvgIcon {...props} viewBox="0 0 300 289.59">
+        <MuiSvgIcon {...props} width={'300'} height={'300'} viewBox="-24 0 348 289.59" sx={{ borderRadius: '50%', background: '#e8d6ff', ...props.sx }}>
             <defs>
                 <linearGradient id="linear-gradient-owallet" x1="259.28" y1="-2619.92" x2="259.28" y2="-2533.12" gradientTransform="translate(0 -2387.99) scale(1 -1)" gradientUnits="userSpaceOnUse">
                     <stop offset="0" stopColor="#925aff" />
