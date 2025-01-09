@@ -21,7 +21,7 @@ export const IconMetamask: SvgComponent = (props) => {
                 '.h': { fill: '#c0ad9e', stroke: '#c0ad9e' },
                 '.i': { fill: '#161616', stroke: '#161616' },
                 '.j': { fill: '#763d16', stroke: '#763d16' },
-                background: '#ffc998',
+                background: '#ffdbbb',
                 borderRadius: '50%',
                 ...props.sx,
             }}
