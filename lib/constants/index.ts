@@ -133,7 +133,7 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     KWT: IconKWT,
     TUSD: IconTUSD,
     AIRI: IconAIRI,
-    WTRX: IconTRX,
+    wTRX: IconTRX,
     WBTC: IconWBTC,
     WETH: IconETH,
     BUSD: IconBUSD,
