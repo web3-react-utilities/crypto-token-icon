@@ -4,7 +4,7 @@ import MuiSvgIcon from '@mui/material/SvgIcon';
 
 export const IconTonKeeper: SvgComponent = (props) => {
     return (
-        <MuiSvgIcon {...props} viewBox="0 0 297.92 297.92">
+        <MuiSvgIcon {...props} viewBox="0 0 297.92 297.92" sx={{ borderRadius: '50%', ...props.sx }}>
             <defs></defs>
             <rect style={{ fill: '#1a2436', strokeWidth: '0px' }} width="297.92" height="297.92" />
             <g>

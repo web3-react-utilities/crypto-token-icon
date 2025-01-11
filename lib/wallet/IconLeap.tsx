@@ -4,7 +4,7 @@ import MuiSvgIcon from '@mui/material/SvgIcon';
 
 export const IconLeap: SvgComponent = (props) => {
     return (
-        <MuiSvgIcon {...props} viewBox="0 0 166 166" fill="none">
+        <MuiSvgIcon {...props} viewBox="0 0 166 166" fill="none" sx={{ borderRadius: '50%', ...props.sx }}>
             <g clipPath="url(#clip0_780_610_leapwallet)">
                 <rect width="166" height="166" fill="#C5FFCE" />
                 <path

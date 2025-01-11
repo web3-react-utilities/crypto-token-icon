@@ -4,18 +4,35 @@ import MuiSvgIcon from '@mui/material/SvgIcon';
 
 export const IconJustLendDao: SvgComponent = (props) => {
     return (
-        <MuiSvgIcon {...props} viewBox="0 0 26 26" fill="none">
-            <path d="M9.66492 19.0751L27.9008 9.86279L28.0003 13.724L9.66492 23.0202V19.0751Z" fill="#23B49A" />
-            <path d="M13.5229 17.1235L19.3496 20.1034L15.5193 22.0549L9.66492 19.0961L13.5229 17.1235Z" fill="#2CCDB0" />
-            <path d="M19.3497 24.0276L19.3497 20.1035L15.5194 22.0551L15.4918 26.0002L19.3497 24.0276Z" fill="#46EFD1" />
-            <path d="M5.92615 17.1864L24.1422 7.93213L27.9007 9.86272L9.66481 19.096L5.92615 17.1864Z" fill="#2CCDB0" />
-            <path d="M5.92615 17.1655L15.5114 22.013V25.9581L5.92615 21.1106V17.1655Z" fill="#177867" />
-            <path d="M0 7.63867L9.58529 12.4861V16.4312L0 11.5838V7.63867Z" fill="#131766" />
-            <path d="M17.3809 9.67401L20.165 11.017L20.2047 3.31565L17.3809 1.93066V9.67401Z" fill="#1B1F6D" />
-            <path d="M9.58533 12.4857L27.8212 3.27344L27.9207 7.13462L9.58533 16.4308V12.4857Z" fill="#262C96" />
-            <path d="M5.84668 10.5975L24.0627 1.34326L27.8213 3.27385L9.58534 12.5071L5.84668 10.5975Z" fill="#4950D4" />
-            <path d="M3.89775 5.70776L9.68472 8.64562L5.85437 10.5972L0 7.63835L3.89775 5.70776Z" fill="#4950D4" />
-            <path d="M21.2786 0L24.0627 1.34302L20.2047 3.31558L17.3809 1.93059L21.2786 0Z" fill="#4950D4" />
+        <MuiSvgIcon
+            {...props}
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 70 70"
+            sx={{
+                '.st0': { fill: (theme) => (theme.palette.mode == 'dark' ? '#FFFFFF' : '#000') },
+                '.st1': { fill: '#23B49A' },
+                '.st2': { fill: '#46EFD1' },
+                '.st3': { fill: '#2CCDB0' },
+                '.st4': { fill: '#177867' },
+                '.st5': { fill: '#131766' },
+                '.st6': { fill: '#1B1F6D' },
+                '.st7': { fill: '#262C96' },
+                '.st8': { fill: '#4950D4' },
+                ...props.sx,
+            }}
+        >
+            <circle className="st0" cx="35" cy="35" r="35" />
+            <g>
+                <path className="st1" d="M25.5,47.6l30.8-15.6l0.2,6.5l-31,15.7V47.6z" />
+                <path className="st2" d="M41.9,56v-6.6l-6.5,3.3l0,6.7L41.9,56z" />
+                <polygon className="st3" points="32.1,44.3 41.9,49.4 35.4,52.7 25.5,47.7 19.2,44.4 50,28.8 56.3,32.1  " />
+                <path className="st4" d="M19.2,44.4l16.2,8.2v6.7l-16.2-8.2V44.4z" />
+                <path className="st5" d="M9.2,28.3l16.2,8.2v6.7L9.2,35V28.3z" />
+                <path className="st6" d="M38.6,31.7l4.7,2.3l0.1-13l-4.8-2.3V31.7z" />
+                <path className="st7" d="M25.4,36.5l30.8-15.6l0.2,6.5l-31,15.7V36.5z" />
+                <polygon className="st8" points="56.2,20.9 25.4,36.5 19.1,33.3 9.2,28.3 15.8,25 25.6,30 43.3,21 38.6,18.7 45.2,15.4 49.9,17.7  " />
+            </g>
         </MuiSvgIcon>
     );
 };
