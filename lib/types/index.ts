@@ -28,6 +28,7 @@ export enum TokenName {
     JST = 'JST',
     KWT = 'KWT',
     LTC = 'LTC',
+    LEE = 'LEE',
     MILKY = 'MILKY',
     NFT = 'NFT',
     NTMPI = 'NTMPI',
@@ -53,7 +54,7 @@ export enum TokenName {
     WBTC = 'WBTC',
     WETH = 'WETH',
     WIN = 'WIN',
-    WTRX = 'WTRX',
+    WTRX = 'wTRX',
     xOCH = 'xOCH',
     APT = 'APT',
     AR = 'AR',
@@ -116,4 +117,5 @@ export enum TokenName {
     ETHOLD = 'ETHOLD',
     WBTT = 'WBTT',
     ION = 'ION',
+    wTRX = 'wTRX',
 }
