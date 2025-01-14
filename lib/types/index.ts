@@ -116,4 +116,5 @@ export enum TokenName {
     ETHOLD = 'ETHOLD',
     WBTT = 'WBTT',
     ION = 'ION',
+    wTRX = 'wTRX',
 }
