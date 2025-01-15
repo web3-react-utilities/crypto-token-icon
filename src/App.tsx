@@ -1,6 +1,6 @@
 import { TokenName } from '../lib/types';
 import { Icon, IconAndName } from '../lib/components';
-import { IconKCS, IconOraiX } from '../lib/token';
+import { IconKCS, IconLEE, IconOraiX } from '../lib/token';
 import './App.css';
 import { IconJustLendDao } from '../lib/system';
 import { IconAuro, IconKeplr, IconLeap, IconLedger, IconMetamask, IconOwallet, IconTonKeeper, IconTronLink, IconWalletConnect } from '../lib/wallet';
@@ -8,8 +8,6 @@ import { IconAuro, IconKeplr, IconLeap, IconLedger, IconMetamask, IconOwallet, I
 function App() {
     return (
         <div>
-            <Icon tokenName={'SOL' as any} sx={{ fontSize: '400px' }} />
-            <IconMetamask sx={{ fontSize: '400px' }} />
             <IconKeplr sx={{ fontSize: '400px' }} />
             <IconLeap sx={{ fontSize: '400px' }} />
             <IconAuro sx={{ fontSize: '400px' }} />

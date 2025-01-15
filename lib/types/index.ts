@@ -28,6 +28,7 @@ export enum TokenName {
     JST = 'JST',
     KWT = 'KWT',
     LTC = 'LTC',
+    LEE = 'LEE',
     MILKY = 'MILKY',
     NFT = 'NFT',
     NTMPI = 'NTMPI',
