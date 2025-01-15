@@ -118,4 +118,7 @@ export enum TokenName {
     WBTT = 'WBTT',
     ION = 'ION',
     wTRX = 'wTRX',
+    MAX = 'MAX',
+    RACKS = 'RACKS',
+    GNRT = 'GNRT',
 }

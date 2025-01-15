@@ -97,3 +97,6 @@ export { IconAXS } from './IconAXS';
 export { IconBTCB } from './IconBTCB';
 export { IconION } from './IconION';
 export { IconLEE } from './IconLEE';
+export { IconMAX } from './IconMAX';
+export { IconRACKS } from './IconRACKS';
+export { IconGNRT } from './IconGNRT';
