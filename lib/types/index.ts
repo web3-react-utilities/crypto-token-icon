@@ -47,6 +47,7 @@ export enum TokenName {
     SUNOLD = 'SUNOLD',
     TUSD = 'TUSD',
     TRX = 'TRX',
+    TRUMP = 'TRUMP',
     USDC = 'USDC',
     USDD = 'USDD',
     USDT = 'USDT',
@@ -114,6 +115,7 @@ export enum TokenName {
     stOSMO = 'stOSMO',
     BTCB = 'BTCB',
     WBNB = 'WBNB',
+    WSOL = 'WSOL',
     ETHOLD = 'ETHOLD',
     WBTT = 'WBTT',
     ION = 'ION',
@@ -121,4 +123,5 @@ export enum TokenName {
     MAX = 'MAX',
     RACKS = 'RACKS',
     GNRT = 'GNRT',
+    AI16Z = 'AI16Z',
 }

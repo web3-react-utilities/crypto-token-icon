@@ -1,6 +1,6 @@
 import { TokenName } from '../lib/types';
 import { Icon, IconAndName } from '../lib/components';
-import { IconGNRT, IconKCS, IconLEE, IconMAX, IconOraiX, IconRACKS } from '../lib/token';
+import { IconAI16Z, IconGNRT, IconKCS, IconLEE, IconMAX, IconOraiX, IconRACKS, IconROSE, IconTRUMP } from '../lib/token';
 import './App.css';
 import { IconJustLendDao } from '../lib/system';
 import { IconAuro, IconKeplr, IconLeap, IconLedger, IconMetamask, IconOwallet, IconTonKeeper, IconTronLink, IconWalletConnect } from '../lib/wallet';
@@ -8,13 +8,13 @@ import { IconAuro, IconKeplr, IconLeap, IconLedger, IconMetamask, IconOwallet, I
 function App() {
     return (
         <div>
-            <IconGNRT sx={{ fontSize: '400px' }} />
-            <IconRACKS sx={{ fontSize: '400px' }} />
-            <IconMAX sx={{ fontSize: '400px' }} />
-            <IconLEE sx={{ fontSize: '400px' }} />
-            <IconKeplr sx={{ fontSize: '400px' }} />
-            <IconLeap sx={{ fontSize: '400px' }} />
-            <IconAuro sx={{ fontSize: '400px' }} />
+            <IconGNRT sx={{ fontSize: '100px' }} />
+            <IconRACKS sx={{ fontSize: '100px' }} />
+            <IconMAX sx={{ fontSize: '100px' }} />
+            <IconROSE sx={{ fontSize: '100px' }} />
+            <IconTRUMP sx={{ fontSize: '100px' }} />
+            <IconJustLendDao sx={{ fontSize: '100px' }} />
+            <IconAI16Z sx={{ fontSize: '100px' }} />
         </div>
     );
 }

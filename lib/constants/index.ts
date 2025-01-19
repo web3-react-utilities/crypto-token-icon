@@ -2,6 +2,7 @@ import { IconSUN } from '../system';
 import {
     IconAAVE,
     IconAELF,
+    IconAI16Z,
     IconAIRI,
     IconALGO,
     IconAPT,
@@ -82,6 +83,7 @@ import {
     IconScINJ,
     IconTIA,
     IconTON,
+    IconTRUMP,
     IconTRX,
     IconTUSD,
     IconUSDC,
@@ -209,4 +211,7 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     [TokenName.MAX]: IconMAX,
     [TokenName.RACKS]: IconRACKS,
     [TokenName.GNRT]: IconGNRT,
+    [TokenName.TRUMP]: IconTRUMP,
+    [TokenName.WSOL]: IconSOL,
+    [TokenName.AI16Z]: IconAI16Z,
 };
