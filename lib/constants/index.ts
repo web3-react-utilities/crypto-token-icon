@@ -211,4 +211,5 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     [TokenName.RACKS]: IconRACKS,
     [TokenName.GNRT]: IconGNRT,
     [TokenName.TRUMP]: IconTRUMP,
+    [TokenName.WSOL]: IconSOL,
 };

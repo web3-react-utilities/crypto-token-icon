@@ -13,7 +13,7 @@ function App() {
             <IconMAX sx={{ fontSize: '400px' }} />
             <IconLEE sx={{ fontSize: '400px' }} />
             <IconTRUMP sx={{ fontSize: '400px' }} />
-            <IconLeap sx={{ fontSize: '400px' }} />
+            <IconJustLendDao sx={{ fontSize: '400px' }} />
             <IconAuro sx={{ fontSize: '400px' }} />
         </div>
     );

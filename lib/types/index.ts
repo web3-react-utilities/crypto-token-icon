@@ -115,6 +115,7 @@ export enum TokenName {
     stOSMO = 'stOSMO',
     BTCB = 'BTCB',
     WBNB = 'WBNB',
+    WSOL = 'WSOL',
     ETHOLD = 'ETHOLD',
     WBTT = 'WBTT',
     ION = 'ION',
