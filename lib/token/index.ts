@@ -101,3 +101,4 @@ export { IconMAX } from './IconMAX';
 export { IconRACKS } from './IconRACKS';
 export { IconGNRT } from './IconGNRT';
 export { IconTRUMP } from './IconTRUMP';
+export { IconAI16Z } from './IconAI16Z';

@@ -123,4 +123,5 @@ export enum TokenName {
     MAX = 'MAX',
     RACKS = 'RACKS',
     GNRT = 'GNRT',
+    AI16Z = 'AI16Z',
 }

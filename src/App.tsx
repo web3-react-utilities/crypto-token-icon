@@ -1,6 +1,6 @@
 import { TokenName } from '../lib/types';
 import { Icon, IconAndName } from '../lib/components';
-import { IconGNRT, IconKCS, IconLEE, IconMAX, IconOraiX, IconRACKS, IconTRUMP } from '../lib/token';
+import { IconAI16Z, IconGNRT, IconKCS, IconLEE, IconMAX, IconOraiX, IconRACKS, IconTRUMP } from '../lib/token';
 import './App.css';
 import { IconJustLendDao } from '../lib/system';
 import { IconAuro, IconKeplr, IconLeap, IconLedger, IconMetamask, IconOwallet, IconTonKeeper, IconTronLink, IconWalletConnect } from '../lib/wallet';
@@ -14,7 +14,7 @@ function App() {
             <IconLEE sx={{ fontSize: '400px' }} />
             <IconTRUMP sx={{ fontSize: '400px' }} />
             <IconJustLendDao sx={{ fontSize: '400px' }} />
-            <IconAuro sx={{ fontSize: '400px' }} />
+            <IconAI16Z sx={{ fontSize: '60px' }} />
         </div>
     );
 }
