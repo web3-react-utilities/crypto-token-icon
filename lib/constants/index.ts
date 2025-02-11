@@ -86,6 +86,7 @@ import {
     IconTRUMP,
     IconTRX,
     IconTUSD,
+    IconUSDAI,
     IconUSDC,
     IconUSDD,
     IconUSDJ,
@@ -214,4 +215,5 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     [TokenName.TRUMP]: IconTRUMP,
     [TokenName.WSOL]: IconSOL,
     [TokenName.AI16Z]: IconAI16Z,
+    [TokenName.USDAI]: IconUSDAI,
 };

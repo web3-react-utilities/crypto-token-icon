@@ -124,4 +124,5 @@ export enum TokenName {
     RACKS = 'RACKS',
     GNRT = 'GNRT',
     AI16Z = 'AI16Z',
+    USDAI = 'USDAI',
 }
