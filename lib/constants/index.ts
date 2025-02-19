@@ -3,6 +3,7 @@ import {
     IconAAVE,
     IconAELF,
     IconAI16Z,
+    IconAIMSTRONG,
     IconAIRI,
     IconALGO,
     IconAPT,
@@ -216,4 +217,5 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     [TokenName.WSOL]: IconSOL,
     [TokenName.AI16Z]: IconAI16Z,
     [TokenName.USDAI]: IconUSDAI,
+    [TokenName.AIMSTRONG]: IconAIMSTRONG,
 };

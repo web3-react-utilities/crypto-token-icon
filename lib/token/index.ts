@@ -103,3 +103,4 @@ export { IconGNRT } from './IconGNRT';
 export { IconTRUMP } from './IconTRUMP';
 export { IconAI16Z } from './IconAI16Z';
 export { IconUSDAI } from './IconUSDAI';
+export { IconAIMSTRONG } from './IconAIMSTRONG';
