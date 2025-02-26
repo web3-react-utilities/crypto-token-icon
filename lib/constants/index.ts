@@ -43,6 +43,7 @@ import {
     IconION,
     IconIOTX,
     IconJASMY,
+    IconJITOSOL,
     IconJST,
     IconJUP,
     IconKAS,
@@ -218,4 +219,5 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     [TokenName.AI16Z]: IconAI16Z,
     [TokenName.USDAI]: IconUSDAI,
     [TokenName.AIMSTRONG]: IconAIMSTRONG,
+    [TokenName.JITOSOL]: IconJITOSOL,
 };

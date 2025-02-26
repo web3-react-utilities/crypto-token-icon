@@ -127,4 +127,5 @@ export enum TokenName {
     USDAI = 'USDAI',
 
     AIMSTRONG = 'AIMSTRONG',
+    JITOSOL = 'JITOSOL',
 }
