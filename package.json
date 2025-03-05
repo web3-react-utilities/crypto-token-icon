@@ -8,7 +8,7 @@
   },
   "author": "QuyenLee",
   "license": "ISC",
-  "main": "dist/crypto-token-icon.js",
+  "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "keywords": [
     "web3",
@@ -65,5 +65,27 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/main.js",
+      "types": "./dist/main.d.ts"
+    },
+    "./tokens": {
+      "import": "./dist/token/index.js",
+      "types": "./dist/token/index.d.ts"
+    },
+    "./systems": {
+      "import": "./dist/system/index.js",
+      "types": "./dist/system/index.d.ts"
+    },
+    "./wallets": {
+      "import": "./dist/wallet/index.js",
+      "types": "./dist/wallet/index.d.ts"
+    },
+    "./imageUrls": {
+      "import": "./dist/constants/imagePaths.js",
+      "types": "./dist/constants/imagePaths.d.ts"
+    }
   }
 }

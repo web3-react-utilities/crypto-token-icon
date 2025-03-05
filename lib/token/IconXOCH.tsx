@@ -1,7 +1,7 @@
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
 import { Box } from '@mui/material';
-import { PNG_xOCH_ALLMODE } from 'lib/constants';
+import { PNG_xOCH_ALLMODE } from 'lib/constants/imagePaths';
 
 export const IconXOCH: SvgComponent = (props) => {
     return (

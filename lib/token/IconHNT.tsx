@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
-import { PNG_HNT_ALLMODE } from 'lib/constants';
+import { PNG_HNT_ALLMODE } from 'lib/constants/imagePaths';
 
 export const IconHNT: SvgComponent = (props) => {
     return (

@@ -1,7 +1,7 @@
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
 import { Box, useTheme } from '@mui/material';
-import { PNG_XLM_DARKMODE, PNG_XLM_LIGHTMODE } from 'lib/constants';
+import { PNG_XLM_DARKMODE, PNG_XLM_LIGHTMODE } from 'lib/constants/imagePaths';
 
 export const IconXLM: SvgComponent = (props) => {
     const theme = useTheme();

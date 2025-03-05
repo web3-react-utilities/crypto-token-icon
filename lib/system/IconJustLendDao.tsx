@@ -1,7 +1,7 @@
 import { Box, useTheme } from '@mui/material';
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
-import { PNG_JustLendDAO_DARKMODE, PNG_JustLendDAO_LIGHTMODE } from 'lib/constants';
+import { PNG_JustLendDAO_DARKMODE, PNG_JustLendDAO_LIGHTMODE } from 'lib/constants/imagePaths';
 
 export const IconJustLendDao: SvgComponent = (props) => {
     const theme = useTheme();

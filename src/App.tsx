@@ -1,8 +1,11 @@
 import { TokenName } from '../lib/types';
-import { Icon, IconAndName } from '../lib/components';
+import { Icon } from '../lib/components';
 import './App.css';
 import { Box, createTheme, ThemeProvider } from '@mui/material';
 import { IconBSC, IconJustLendDao, IconOrchai } from 'lib/system';
+import { mapNameToIcon, IconAndName } from 'crypto-token-icon';
+import { IconAAVE } from 'crypto-token-icon/tokens';
+import { PNG_AAVE_ALLMODE } from 'crypto-token-icon/imageUrls';
 
 const icons: TokenName[] = [
     TokenName.AAVE,
@@ -115,6 +118,7 @@ const icons: TokenName[] = [
     TokenName.ZRX,
 ];
 function App() {
+    console.log(PNG_AAVE_ALLMODE, mapNameToIcon);
     const theme = createTheme({
         palette: {
             mode: 'light',
@@ -126,6 +130,8 @@ function App() {
                 <IconBSC sx={{ fontSize: '70px' }} />
                 <IconJustLendDao sx={{ fontSize: '70px' }} />
                 <IconOrchai sx={{ fontSize: '70px' }} />
+
+                <IconAAVE sx={{ fontSize: '90px' }} />
 
                 <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', rowGap: '20px', columnGap: '10px' }}>
                     {icons.map((icon, index) => (

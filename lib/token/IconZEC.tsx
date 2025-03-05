@@ -1,7 +1,7 @@
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
 import { Box, useTheme } from '@mui/material';
-import { PNG_ZEC_DARKMODE, PNG_ZEC_LIGHTMODE } from 'lib/constants';
+import { PNG_ZEC_DARKMODE, PNG_ZEC_LIGHTMODE } from 'lib/constants/imagePaths';
 
 export const IconZEC: SvgComponent = (props) => {
     const theme = useTheme();

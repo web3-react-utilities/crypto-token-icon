@@ -1,7 +1,7 @@
 import { Box, useTheme } from '@mui/material';
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
-import { PNG_SOL_DARKMODE, PNG_SOL_LIGHTMODE } from 'lib/constants';
+import { PNG_SOL_DARKMODE, PNG_SOL_LIGHTMODE } from 'lib/constants/imagePaths';
 
 export const IconSOL: SvgComponent = (props) => {
     const theme = useTheme();

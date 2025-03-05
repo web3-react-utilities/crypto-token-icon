@@ -105,7 +105,7 @@ import {
     IconXRP,
     IconZEC,
     IconZRX,
-} from 'lib/token';
+} from '../token';
 import { IconSUN } from '../system';
 import { SvgComponent, TokenName } from '../types';
 

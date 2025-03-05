@@ -1,7 +1,7 @@
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
 import { Box } from '@mui/material';
-import { PNG_JITOSOL_ALLMODE } from 'lib/constants';
+import { PNG_JITOSOL_ALLMODE } from 'lib/constants/imagePaths';
 
 export const IconJITOSOL: SvgComponent = (props) => {
     return (
