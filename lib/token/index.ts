@@ -106,3 +106,4 @@ export { IconUSDAI } from './IconUSDAI';
 export { IconAIMSTRONG } from './IconAIMSTRONG';
 export { IconWETH } from './IconWETH';
 export { IconJITOSOL } from './IconJITOSOL';
+export { IconATI } from './IconATI';

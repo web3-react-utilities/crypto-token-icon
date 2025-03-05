@@ -1,5 +1,5 @@
 import { TokenName } from '../lib/types';
-import { Icon } from '../lib/components';
+import { Icon, IconAndName } from '../lib/components';
 import './App.css';
 import { Box, createTheme, ThemeProvider } from '@mui/material';
 import { IconBSC, IconJustLendDao, IconOrchai } from 'lib/system';
@@ -136,6 +136,9 @@ function App() {
                     ))}
                 </Box>
             </Box>
+
+            <IconAndName tokenName={TokenName.AAVE} />
+            <IconAndName tokenName={TokenName.BTC} />
         </ThemeProvider>
     );
 }
