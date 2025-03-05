@@ -21,6 +21,8 @@ export const PNG_AR_DARKMODE = `${baseImgUrl}/token/AR-darkmode.png`;
 
 export const PNG_ARB_ALLMODE = `${baseImgUrl}/token/ARB.png`;
 
+export const PNG_ATI_ALLMODE = `${baseImgUrl}/token/ATI.png`;
+
 export const PNG_ATOM_ALLMODE = `${baseImgUrl}/token/ATOM.png`;
 
 export const PNG_AVAX_ALLMODE = `${baseImgUrl}/token/AVAX.png`;
@@ -96,6 +98,8 @@ export const PNG_IOTX_ALLMODE = `${baseImgUrl}/token/IOTX.png`;
 export const PNG_ION_ALLMODE = `${baseImgUrl}/token/ION.png`;
 
 export const PNG_JASMY_ALLMODE = `${baseImgUrl}/token/JASMY.png`;
+
+export const PNG_JITOSOL_ALLMODE = `${baseImgUrl}/token/JITOSOL.png`;
 
 export const PNG_JST_ALLMODE = `${baseImgUrl}/token/JST.png`;
 

@@ -1,5 +1,6 @@
 export * from './baseUrl';
 export * from './imagePaths';
+import { IconATI } from 'lib/token/IconATI';
 import { IconSUN } from '../system';
 import {
     IconAAVE,
@@ -45,6 +46,7 @@ import {
     IconION,
     IconIOTX,
     IconJASMY,
+    IconJITOSOL,
     IconJST,
     IconJUP,
     IconKAS,
@@ -110,6 +112,7 @@ import {
 import { SvgComponent, TokenName } from '../types';
 
 export const mapNameToIcon: Record<TokenName, SvgComponent> = {
+    [TokenName.ATI]: IconATI,
     [TokenName.HT]: IconHT,
     [TokenName.HTX]: IconHTX,
     [TokenName.JST]: IconJST,
@@ -221,4 +224,5 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     [TokenName.AI16Z]: IconAI16Z,
     [TokenName.USDAI]: IconUSDAI,
     [TokenName.AIMSTRONG]: IconAIMSTRONG,
+    [TokenName.JITOSOL]: IconJITOSOL,
 };

@@ -16,6 +16,7 @@ export enum WalletName {
 export enum TokenName {
     AIRI = 'AIRI',
     ATOM = 'ATOM',
+    ATI = 'ATI',
     BNB = 'BNB',
     BTC = 'BTC',
     BUSD = 'BUSD',
@@ -127,4 +128,5 @@ export enum TokenName {
     USDAI = 'USDAI',
 
     AIMSTRONG = 'AIMSTRONG',
+    JITOSOL = 'JITOSOL',
 }
