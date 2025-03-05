@@ -1,6 +1,6 @@
 import { IconSUN } from '../system';
-import * as tokenList from '../token';
 import { SvgComponent, TokenName } from '../types';
+import * as tokenList from '../token';
 
 export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     [TokenName.ATI]: tokenList.IconATI,
