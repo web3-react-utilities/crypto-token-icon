@@ -1,3 +1,4 @@
+export { IconARB } from './IconARB';
 export { IconHT } from './IconHT';
 export { IconHTX } from './IconHTX';
 export { IconJST } from './IconJST';
@@ -45,7 +46,6 @@ export { IconXRP } from './IconXRP';
 export { IconSHIB } from './IconSHIB';
 export { IconXLM } from './IconXLM';
 export { IconAPT } from './IconAPT';
-export { IconARB } from './IconARB';
 export { IconIMX } from './IconIMX';
 export { IconVET } from './IconVET';
 export { IconAR } from './IconAR';
