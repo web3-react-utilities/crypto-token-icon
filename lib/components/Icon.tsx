@@ -1,6 +1,5 @@
-import React from 'react';
 import { SxProps, Typography } from '@mui/material';
-import { mapNameToIcon } from '../constants';
+import { mapNameToIcon } from '../constants/mapNameToIcon';
 
 type Props = {
     /**

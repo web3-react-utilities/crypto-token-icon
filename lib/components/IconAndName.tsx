@@ -1,6 +1,5 @@
 import { Box, SxProps, Typography } from '@mui/material';
-import React from 'react';
-import { mapNameToIcon } from '../constants';
+import { mapNameToIcon } from '../constants/mapNameToIcon';
 import { Help } from '@mui/icons-material';
 import { TokenName } from '../types';
 

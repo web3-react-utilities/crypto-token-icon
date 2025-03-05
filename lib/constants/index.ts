@@ -1,3 +1,3 @@
 export * from './baseUrl';
 export * from './imagePaths';
-export * from './mapNameToIcon';
+export { mapNameToIcon } from './mapNameToIcon';
