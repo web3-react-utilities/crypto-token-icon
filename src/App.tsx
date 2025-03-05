@@ -1,15 +1,14 @@
-import { SvgComponent, TokenName } from '../lib/types';
-import { Icon, IconAndName } from '../lib/components';
-import { IconAI16Z, IconGNRT, IconKCS, IconLEE, IconMAX, IconOraiX, IconRACKS, IconTRUMP } from '../lib/token';
+import { TokenName } from '../lib/types';
+import { Icon } from '../lib/components';
 import './App.css';
-import { IconJustLendDao } from '../lib/system';
-import { IconAuro, IconKeplr, IconLeap, IconLedger, IconMetamask, IconOwallet, IconTonKeeper, IconTronLink, IconWalletConnect } from '../lib/wallet';
-import { Box } from '@mui/material';
+import { Box, createTheme, ThemeProvider } from '@mui/material';
+import { IconBSC, IconJustLendDao, IconOrchai } from 'lib/system';
 
 const icons: TokenName[] = [
     TokenName.AAVE,
     TokenName.AELF,
     TokenName.AI16Z,
+    TokenName.AIMSTRONG,
     TokenName.AIRI,
     TokenName.ALGO,
     TokenName.APT,
@@ -49,17 +48,93 @@ const icons: TokenName[] = [
     TokenName.INJ,
     TokenName.IOTX,
     TokenName.ION,
+    TokenName.JASMY,
+    TokenName.JST,
+    TokenName.JUP,
+    TokenName.KAS,
+    TokenName.KCS,
+    TokenName.KWT,
+    TokenName.LEE,
+    TokenName.LTC,
+    TokenName.MANA,
+    TokenName.MAX,
+    TokenName.METIS,
+    TokenName.MILKY,
+    TokenName.MINA,
+    TokenName.MKR,
+    TokenName.NEO,
+    TokenName.NEXO,
+    TokenName.NFT,
+    TokenName.NTMPI,
+    TokenName.OCH,
+    TokenName.ORAI,
+    TokenName.ORAIX,
+    TokenName.OSMO,
+    TokenName.PEPE,
+    TokenName.PYTH,
+    TokenName.RACKS,
+    TokenName.ROSE,
+    TokenName.scATOM,
+    TokenName.scOSMO,
+    TokenName.scORAI,
+    TokenName.scINJ,
+    TokenName.SHIBAINU,
+    TokenName.SNX,
+    TokenName.SOL,
+    TokenName.sORAI,
+    TokenName.stATOM,
+    TokenName.stOSMO,
+    TokenName.STRX,
+    TokenName.STX,
+    TokenName.STUSDT,
+    TokenName.SUN,
+    TokenName.SUNOLD,
+    TokenName.TIA,
+    TokenName.TON,
+    TokenName.TRX,
+    TokenName.TRUMP,
+    TokenName.TUSD,
+    TokenName.USDAI,
+    TokenName.USDC,
+    TokenName.USDD,
+    TokenName.USDJ,
+    TokenName.USDT,
+    TokenName.VET,
+    TokenName.WBTC,
+    TokenName.WETH,
+    TokenName.WEDU,
+    TokenName.WIN,
+    TokenName.WIF,
+    TokenName.XLM,
+    TokenName.XRP,
+    TokenName.xOCH,
+    TokenName.XMR,
+    TokenName.ZEC,
+    TokenName.ZRX,
 ];
 function App() {
+    const theme = createTheme({
+        palette: {
+            mode: 'light',
+        },
+    });
     return (
-        <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', rowGap: '20px', columnGap: '10px' }}>
-            {icons.map((icon, index) => (
-                <Box sx={{ display: 'flex', alignItems: 'center', width: '80px', height: '80px', flexDirection: 'column' }}>
-                    <Icon key={index} tokenName={icon} sx={{ fontSize: '70px', borderRadius: '0' }} />
-                    {icon}
+        <ThemeProvider theme={theme}>
+            <Box sx={{ background: theme.palette.mode == 'dark' ? '#000' : '#fff', color: theme.palette.mode == 'dark' ? '#fff' : '#000' }}>
+                <IconBSC sx={{ fontSize: '70px' }} />
+                <IconJustLendDao sx={{ fontSize: '70px' }} />
+                <IconOrchai sx={{ fontSize: '70px' }} />
+
+                <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', rowGap: '20px', columnGap: '10px' }}>
+                    {icons.map((icon, index) => (
+                        <Box key={icon + index} sx={{ display: 'flex', alignItems: 'center', width: '80px', height: '80px', flexDirection: 'column' }}>
+                            <Icon key={index} tokenName={icon} sx={{ fontSize: '50px', borderRadius: '0' }} />
+                            {icon}
+                        </Box>
+                    ))}
                 </Box>
-            ))}
-        </Box>
+            </Box>
+        </ThemeProvider>
     );
 }
 

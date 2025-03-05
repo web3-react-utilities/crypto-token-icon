@@ -1,12 +1,12 @@
-import React from 'react';
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
+import { Box } from '@mui/material';
+import { PNG_NEO_ALLMODE } from 'lib/constants/imagePaths';
 
 export const IconNEO: SvgComponent = (props) => {
     return (
-        <MuiSvgIcon {...props} viewBox="0 0 19 20" fill="none">
-            <path d="M0.833496 3.50611V16.8847L9.51735 20V6.51289L18.9122 3.0502L10.3857 0L0.833496 3.50611Z" fill="#00E599" />
-            <path d="M10.2285 6.89821V14.2144L18.9124 17.3297V3.68518L10.2285 6.89821Z" fill="#00AF92" />
+        <MuiSvgIcon {...props} titleAccess={'NEO'} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" version="1.1" viewBox="0 0 70 70">
+            <Box component={'image'} width="70" height="70" xlinkHref={PNG_NEO_ALLMODE} xlinkTitle={'NEO'} />
         </MuiSvgIcon>
     );
 };

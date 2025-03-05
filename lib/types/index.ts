@@ -61,7 +61,7 @@ export enum TokenName {
     AR = 'AR',
     ARB = 'ARB',
     IMX = 'IMX',
-    SHIBAINU = 'SHIBAINU',
+    SHIBAINU = 'SHIB',
     SOL = 'SOL',
     VET = 'VET',
     XLM = 'XLM',
@@ -124,4 +124,7 @@ export enum TokenName {
     RACKS = 'RACKS',
     GNRT = 'GNRT',
     AI16Z = 'AI16Z',
+    USDAI = 'USDAI',
+
+    AIMSTRONG = 'AIMSTRONG',
 }

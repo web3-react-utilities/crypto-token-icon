@@ -1,18 +1,12 @@
-import React from 'react';
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
+import { Box } from '@mui/material';
+import { PNG_FLOW_ALLMODE } from 'lib/constants/imagePaths';
 
 export const IconFLOW: SvgComponent = (props) => {
     return (
-        <MuiSvgIcon {...props} viewBox="0 0 32 32" fill="none">
-            <circle cx="16" cy="16" r="16" fill="#00EF8B" />
-            <path d="M22.3975 13.5415H18.4585V17.4806H22.3975V13.5415Z" fill="white" />
-            <path
-                d="M14.5195 18.9612C14.5195 19.7713 13.849 20.4418 13.0388 20.4418C12.2287 20.4418 11.5582 19.7713 11.5582 18.9612C11.5582 18.151 12.2287 17.4806 13.0388 17.4806H14.5195V13.5415H13.0388C10.0496 13.5415 7.61914 15.972 7.61914 18.9612C7.61914 21.9504 10.0496 24.3809 13.0388 24.3809C16.028 24.3809 18.4585 21.9504 18.4585 18.9612V17.4806H14.5195V18.9612Z"
-                fill="white"
-            />
-            <path d="M18.4586 13.5415H14.5195V17.4806H18.4586V13.5415Z" fill="#00EF8B" />
-            <path d="M19.9392 11.5581H24.3811V7.61902H19.9392C16.95 7.61902 14.5195 10.0495 14.5195 13.0387V13.5416H18.4586V13.0387C18.4586 12.2285 19.1291 11.5581 19.9392 11.5581Z" fill="white" />
+        <MuiSvgIcon {...props} titleAccess={'FLOW'} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" version="1.1" viewBox="0 0 70 70">
+            <Box component={'image'} width="70" height="70" xlinkHref={PNG_FLOW_ALLMODE} xlinkTitle={'FLOW'} />
         </MuiSvgIcon>
     );
 };

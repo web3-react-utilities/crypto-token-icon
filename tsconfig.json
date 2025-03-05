@@ -4,7 +4,7 @@
         "paths": {
             "src/*": ["./src/*"],
             "public/*": ["./public/*"],
-            "lib": ["./lib/*"]
+            "lib/*": ["./lib/*"]
         },
         "target": "ES2020",
         "useDefineForClassFields": true,

@@ -1,8 +1,11 @@
+export * from './baseUrl';
+export * from './imagePaths';
 import { IconSUN } from '../system';
 import {
     IconAAVE,
     IconAELF,
     IconAI16Z,
+    IconAIMSTRONG,
     IconAIRI,
     IconALGO,
     IconAPT,
@@ -70,7 +73,7 @@ import {
     IconSCATOM,
     IconSCORAI,
     IconSCOSMO,
-    IconSHIBAINU,
+    IconSHIB,
     IconSNX,
     IconSOL,
     IconSORAI,
@@ -86,6 +89,7 @@ import {
     IconTRUMP,
     IconTRX,
     IconTUSD,
+    IconUSDAI,
     IconUSDC,
     IconUSDD,
     IconUSDJ,
@@ -93,6 +97,7 @@ import {
     IconVET,
     IconWBTC,
     IconWEDU,
+    IconWETH,
     IconWIF,
     IconWIN,
     IconXLM,
@@ -142,7 +147,7 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     [TokenName.AIRI]: IconAIRI,
     [TokenName.WTRX]: IconTRX,
     [TokenName.WBTC]: IconWBTC,
-    [TokenName.WETH]: IconETH,
+    [TokenName.WETH]: IconWETH,
     [TokenName.BUSD]: IconBUSD,
     [TokenName.BTT]: IconBTT,
     [TokenName.STUSDT]: IconSTUSDT,
@@ -151,7 +156,7 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     [TokenName.AR]: IconAR,
     [TokenName.ARB]: IconARB,
     [TokenName.IMX]: IconIMX,
-    [TokenName.SHIBAINU]: IconSHIBAINU,
+    [TokenName.SHIBAINU]: IconSHIB,
     [TokenName.SOL]: IconSOL,
     [TokenName.VET]: IconVET,
     [TokenName.XLM]: IconXLM,
@@ -214,4 +219,6 @@ export const mapNameToIcon: Record<TokenName, SvgComponent> = {
     [TokenName.TRUMP]: IconTRUMP,
     [TokenName.WSOL]: IconSOL,
     [TokenName.AI16Z]: IconAI16Z,
+    [TokenName.USDAI]: IconUSDAI,
+    [TokenName.AIMSTRONG]: IconAIMSTRONG,
 };

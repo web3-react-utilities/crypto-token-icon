@@ -1,35 +1,13 @@
-import React from 'react';
 import { SvgComponent } from '../types';
 import MuiSvgIcon from '@mui/material/SvgIcon';
+import { Box, useTheme } from '@mui/material';
+import { PNG_ORAI_DARKMODE, PNG_ORAI_LIGHTMODE } from 'lib/constants/imagePaths';
 
 export const IconORAI: SvgComponent = (props) => {
+    const theme = useTheme();
     return (
-        <MuiSvgIcon {...props} viewBox="0 0 24 24" fill="none">
-            <g>
-                <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="black" />
-                <g>
-                    <path
-                        d="M10.1815 10.433L10.8059 12.2772H9.39778L10.0582 10.433H10.1815ZM13.5536 13.2633H12.5234V13.6261H15.0617V13.2633H14.0478V10.3621H15.0617V9.99932H12.5176V10.3621H13.5478L13.5536 13.2633ZM8.91871 13.6261L9.26755 12.654H10.9373L11.2641 13.6261H11.8001L10.4943 9.99932H9.7536L8.42685 13.6261H8.91871ZM17.0862 17.0795H6.66406V6.66211H17.0803L17.0862 17.0795Z"
-                        fill="white"
-                    />
-                    <path
-                        d="M12.8872 21.7136C15.1478 21.4774 17.2585 20.4715 18.8657 18.8643C20.4729 17.2571 21.4789 15.1463 21.7151 12.8857H20.4895C20.3012 14.8481 19.4424 16.6856 18.0576 18.0888C16.6729 19.4919 14.8469 20.375 12.8872 20.5892V21.7136Z"
-                        fill="white"
-                    />
-                    <path
-                        d="M2.02795 12.8857C2.26437 15.1463 3.27042 17.2569 4.87757 18.864C6.48472 20.4712 8.59534 21.4772 10.8559 21.7136V20.5892C8.89731 20.3726 7.07292 19.4887 5.68902 18.086C4.30512 16.6832 3.44598 14.847 3.25586 12.8857H2.02795Z"
-                        fill="white"
-                    />
-                    <path
-                        d="M21.7151 10.8553C21.4787 8.59473 20.4726 6.48411 18.8655 4.87696C17.2583 3.26981 15.1477 2.26376 12.8872 2.02734V3.15176C14.846 3.36831 16.6707 4.25212 18.055 5.65482C19.4393 7.05753 20.2989 8.89375 20.4895 10.8553H21.7151Z"
-                        fill="white"
-                    />
-                    <path
-                        d="M10.8559 2.02734C8.59558 2.26439 6.48531 3.27064 4.87828 4.87767C3.27125 6.4847 2.265 8.59497 2.02795 10.8553H3.25586C3.44388 8.89317 4.30233 7.05582 5.68663 5.65267C7.07093 4.24952 8.8965 3.3663 10.8559 3.15176V2.02734Z"
-                        fill="white"
-                    />
-                </g>
-            </g>
+        <MuiSvgIcon {...props} titleAccess={'ORAI'} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" version="1.1" viewBox="0 0 70 70">
+            <Box component={'image'} width="70" height="70" xlinkHref={theme.palette.mode === 'dark' ? PNG_ORAI_DARKMODE : PNG_ORAI_LIGHTMODE} xlinkTitle={'ORAI'} />
         </MuiSvgIcon>
     );
 };
