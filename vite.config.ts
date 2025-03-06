@@ -19,7 +19,6 @@ export default defineConfig({
                 token: path.resolve(__dirname, 'lib/token/index.ts'),
                 system: path.resolve(__dirname, 'lib/system/index.ts'),
                 wallet: path.resolve(__dirname, 'lib/wallet/index.ts'),
-
                 'constants/imagePaths': path.resolve(__dirname, 'lib/constants/imagePaths.ts'),
             },
             formats: ['es'],

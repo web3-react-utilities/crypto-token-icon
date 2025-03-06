@@ -7,12 +7,28 @@ yarn add @mui/icons-material @mui/material @emotion/styled @emotion/react crypto
 ## Structure
 
 `crypto-token-icon` ⇒ For type and common components
+
 `crypto-token-icon/tokens` ⇒ Icon for crypto tokens
+
 `crypto-token-icon/systems` ⇒ Icon for crypto systems
+
 `crypto-token-icon/wallets` ⇒ Icon for crypto wallets
+
 `crypto-token-icon/imageUrls` ⇒ Url image png of tokens
 
 ## Using nomal
+
+```tsx
+import { IconKeplr } from 'crypto-token-icon/wallets';
+
+function App() {
+    return (
+        <>
+            <IconKeplr />
+        </>
+    );
+}
+```
 
 ```tsx
 import { IconHT, IconHTX } from 'crypto-token-icon/tokens';
